@@ -1,0 +1,1015 @@
+<mxfile host="app.diagrams.net" pages="5">
+  <diagram name="1 - Modo campania" id="MOBc3zQgOf1T5fqHI6yq">
+    <mxGraphModel dx="4623" dy="1720" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2340" pageHeight="1933" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sd" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=174;height=30;fillColor=none;fontStyle=1;verticalAlign=top;align=left;spacingLeft=8;fontSize=14;" value="sd Modo campania" vertex="1">
+          <mxGeometry height="1833" width="1800" x="10" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="f0" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=74;height=28;fillColor=none;fontStyle=1;verticalAlign=top;align=left;spacingLeft=6;" value="alt" vertex="1">
+          <mxGeometry height="518" width="1664" x="78" y="976" as="geometry" />
+        </mxCell>
+        <mxCell id="f0g" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="[victoria]" vertex="1">
+          <mxGeometry height="20" width="460" x="160" y="982" as="geometry" />
+        </mxCell>
+        <mxCell id="f0s0" parent="1" style="line;strokeWidth=1;dashed=1;html=1;" vertex="1">
+          <mxGeometry height="10" width="1664" x="78" y="1364" as="geometry" />
+        </mxCell>
+        <mxCell id="f0s0g" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="[derrota]" vertex="1">
+          <mxGeometry height="20" width="420" x="90" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=74;height=28;fillColor=none;fontStyle=1;verticalAlign=top;align=left;spacingLeft=6;" value="loop" vertex="1">
+          <mxGeometry height="1310" width="1732" x="44" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="f1g" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="[mientras no estaCompletada()]" vertex="1">
+          <mxGeometry height="20" width="460" x="126" y="344" as="geometry" />
+        </mxCell>
+        <mxCell id="ref0" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=74;height=28;fillColor=#f5f5f5;fontStyle=1;verticalAlign=top;align=left;spacingLeft=6;" value="ref" vertex="1">
+          <mxGeometry height="80" width="1632" x="84" y="814" as="geometry" />
+        </mxCell>
+        <mxCell id="ref0l" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=2" value="Batalla por turnos&lt;br&gt;(pestania 2)" vertex="1">
+          <mxGeometry height="26" width="1520" x="140" y="854" as="geometry" />
+        </mxCell>
+        <mxCell id="act" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;participant=umlActor;" value="Jugador" vertex="1">
+          <mxGeometry height="1783" width="100" x="70" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cam" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value=":Campania" vertex="1">
+          <mxGeometry height="1783" width="170" x="335" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="enc" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value="e:Encuentro" vertex="1">
+          <mxGeometry height="1783" width="170" x="635" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="par" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value="party:Party" vertex="1">
+          <mxGeometry height="1783" width="170" x="935" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bat" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value=":Batalla" vertex="1">
+          <mxGeometry height="1176" width="170" x="1235" y="697" as="geometry" />
+        </mxCell>
+        <mxCell id="ges" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value=":GestorPartida" vertex="1">
+          <mxGeometry height="1783" width="170" x="1535" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bact0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="115" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bact1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="115" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="bact2" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="76" width="10" x="115" y="528" as="geometry" />
+        </mxCell>
+        <mxCell id="bact3" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="115" y="1424" as="geometry" />
+        </mxCell>
+        <mxCell id="bact4" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="76" width="10" x="115" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="bcam0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="76" width="10" x="415" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bcam1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="398" width="10" x="415" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="bcam2" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="415" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="bcam3" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="306" width="10" x="415" y="1028" as="geometry" />
+        </mxCell>
+        <mxCell id="bcam4" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="415" y="1424" as="geometry" />
+        </mxCell>
+        <mxCell id="bcam5" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="92" width="10" x="415" y="1516" as="geometry" />
+        </mxCell>
+        <mxCell id="bcam6" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="415" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="bcam7" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="415" y="1762" as="geometry" />
+        </mxCell>
+        <mxCell id="benc0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="76" width="10" x="715" y="436" as="geometry" />
+        </mxCell>
+        <mxCell id="benc1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="76" width="10" x="715" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="benc2" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="715" y="1028" as="geometry" />
+        </mxCell>
+        <mxCell id="benc3" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="76" width="10" x="715" y="1166" as="geometry" />
+        </mxCell>
+        <mxCell id="bpar0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="1015" y="1258" as="geometry" />
+        </mxCell>
+        <mxCell id="bpar1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="1015" y="1578" as="geometry" />
+        </mxCell>
+        <mxCell id="bbat0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="76" width="10" x="1315" y="712" as="geometry" />
+        </mxCell>
+        <mxCell id="bbat1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="1315" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="bbat2" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="76" width="10" x="1315" y="1074" as="geometry" />
+        </mxCell>
+        <mxCell id="bges0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="76" width="10" x="1615" y="1716" as="geometry" />
+        </mxCell>
+        <mxCell id="m0" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="iniciar()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="230" as="sourcePoint" />
+            <mxPoint x="415" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=middle;spacingLeft=8;" value="desbloquearSiguiente()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="276" />
+              <mxPoint x="520" y="318" />
+            </Array>
+            <mxPoint x="425" y="276" as="sourcePoint" />
+            <mxPoint x="425" y="318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="encuentrosDisponibles()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="400" as="sourcePoint" />
+            <mxPoint x="415" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="estaDisponible()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="446" as="sourcePoint" />
+            <mxPoint x="715" y="446" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m4" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="boolean">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="492" as="sourcePoint" />
+            <mxPoint x="425" y="492" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="List&lt;Encuentro&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="538" as="sourcePoint" />
+            <mxPoint x="125" y="538" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m6" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="jugarEncuentro(e)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="584" as="sourcePoint" />
+            <mxPoint x="415" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m7" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="generarEnemigos()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="630" as="sourcePoint" />
+            <mxPoint x="715" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="List&lt;Enemigo&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="676" as="sourcePoint" />
+            <mxPoint x="425" y="676" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m9" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="«create» Batalla(party, enemigos)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="722" as="sourcePoint" />
+            <mxPoint x="1315" y="722" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m10" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="iniciarBatalla()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="768" as="sourcePoint" />
+            <mxPoint x="1315" y="768" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m11" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="finalizada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1315" y="930" as="sourcePoint" />
+            <mxPoint x="425" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m12" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="marcarSuperado()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="1038" as="sourcePoint" />
+            <mxPoint x="715" y="1038" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m13" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="otorgarRecompensas()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="1084" as="sourcePoint" />
+            <mxPoint x="1315" y="1084" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m14" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="Recompensa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1315" y="1130" as="sourcePoint" />
+            <mxPoint x="425" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m15" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="ajustarRecompensa(r)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="1176" as="sourcePoint" />
+            <mxPoint x="715" y="1176" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m16" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="Recompensa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="1222" as="sourcePoint" />
+            <mxPoint x="425" y="1222" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m17" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="repartirRecompensa(r)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="1268" as="sourcePoint" />
+            <mxPoint x="1015" y="1268" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m18" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=middle;spacingLeft=8;" value="desbloquearSiguiente()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="1314" />
+              <mxPoint x="520" y="1356" />
+            </Array>
+            <mxPoint x="425" y="1314" as="sourcePoint" />
+            <mxPoint x="425" y="1356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m19" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="ofrecerReintento()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="1434" as="sourcePoint" />
+            <mxPoint x="125" y="1434" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m20" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=middle;spacingLeft=8;" value="curarEntreCombates()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="1526" />
+              <mxPoint x="520" y="1568" />
+            </Array>
+            <mxPoint x="425" y="1526" as="sourcePoint" />
+            <mxPoint x="425" y="1568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m21" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="curarParcialmente(porcentaje)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="1588" as="sourcePoint" />
+            <mxPoint x="1015" y="1588" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m22" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="campania completada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="1680" as="sourcePoint" />
+            <mxPoint x="125" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m23" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="guardarPartida(c, ruta)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="1726" as="sourcePoint" />
+            <mxPoint x="1615" y="1726" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m24" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="lee el estado de la campania">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1615" y="1772" as="sourcePoint" />
+            <mxPoint x="425" y="1772" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="titulo" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=20;fontStyle=1" value="Diagrama de Secuencia 1 - Modo campania (encuentro tras encuentro hasta el jefe)" vertex="1">
+          <mxGeometry height="30" width="2240" x="20" y="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="2 - Batalla por turnos" id="YAZfn8oAMtA8ik4QhyeY">
+    <mxGraphModel dx="1387" dy="516" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2340" pageHeight="1645" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sd" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=214;height=30;fillColor=none;fontStyle=1;verticalAlign=top;align=left;spacingLeft=8;fontSize=14;" value="sd Batalla por turnos" vertex="1">
+          <mxGeometry height="1545" width="1800" x="10" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="f0" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=74;height=28;fillColor=none;fontStyle=1;verticalAlign=top;align=left;spacingLeft=6;" value="loop" vertex="1">
+          <mxGeometry height="822" width="1732" x="44" y="522" as="geometry" />
+        </mxCell>
+        <mxCell id="f0g" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="[mientras no finalizada]  -  c = combatiente al que le toca el turno" vertex="1">
+          <mxGeometry height="20" width="460" x="126" y="528" as="geometry" />
+        </mxCell>
+        <mxCell id="ref0" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=74;height=28;fillColor=#f5f5f5;fontStyle=1;verticalAlign=top;align=left;spacingLeft=6;" value="ref" vertex="1">
+          <mxGeometry height="80" width="1632" x="84" y="692" as="geometry" />
+        </mxCell>
+        <mxCell id="ref0l" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=2" value="Turno de un Personaje    o    Turno de un Enemigo&lt;br&gt;(pestania 3 o 4, segun la clase real de c)" vertex="1">
+          <mxGeometry height="26" width="1520" x="140" y="732" as="geometry" />
+        </mxCell>
+        <mxCell id="cam" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value=":Campania" vertex="1">
+          <mxGeometry height="1495" width="170" x="35" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bat" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value=":Batalla" vertex="1">
+          <mxGeometry height="1495" width="170" x="335" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="par" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value="party:Party" vertex="1">
+          <mxGeometry height="1495" width="170" x="635" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value="c:Combatiente" vertex="1">
+          <mxGeometry height="1495" width="170" x="935" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ef" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value="ef:EfectoEstado" vertex="1">
+          <mxGeometry height="1495" width="170" x="1235" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rec" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value="r:Recompensa" vertex="1">
+          <mxGeometry height="172" width="170" x="1535" y="1413" as="geometry" />
+        </mxCell>
+        <mxCell id="bcam0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="115" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bcam1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="115" y="1474" as="geometry" />
+        </mxCell>
+        <mxCell id="bbat0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="276" width="10" x="415" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bbat1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="92" width="10" x="415" y="574" as="geometry" />
+        </mxCell>
+        <mxCell id="bbat2" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="415" y="798" as="geometry" />
+        </mxCell>
+        <mxCell id="bbat3" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="230" width="10" x="415" y="1074" as="geometry" />
+        </mxCell>
+        <mxCell id="bbat4" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="138" width="10" x="415" y="1366" as="geometry" />
+        </mxCell>
+        <mxCell id="bpar0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="76" width="10" x="715" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="bpar1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="76" width="10" x="715" y="1136" as="geometry" />
+        </mxCell>
+        <mxCell id="bc0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="76" width="10" x="1015" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="bc1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="1015" y="636" as="geometry" />
+        </mxCell>
+        <mxCell id="bc2" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="260" width="10" x="1015" y="798" as="geometry" />
+        </mxCell>
+        <mxCell id="bc3" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="76" width="10" x="1015" y="1228" as="geometry" />
+        </mxCell>
+        <mxCell id="bef0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="214" width="10" x="1315" y="844" as="geometry" />
+        </mxCell>
+        <mxCell id="brec0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="1615" y="1428" as="geometry" />
+        </mxCell>
+        <mxCell id="m0" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="iniciarBatalla()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="230" as="sourcePoint" />
+            <mxPoint x="415" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=middle;spacingLeft=8;" value="calcularOrdenTurnos()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="276" />
+              <mxPoint x="520" y="318" />
+            </Array>
+            <mxPoint x="425" y="276" as="sourcePoint" />
+            <mxPoint x="425" y="318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="miembrosVivos()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="338" as="sourcePoint" />
+            <mxPoint x="715" y="338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="List&lt;Personaje&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="384" as="sourcePoint" />
+            <mxPoint x="425" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m4" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="getVelocidad()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="430" as="sourcePoint" />
+            <mxPoint x="1015" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="int">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1015" y="476" as="sourcePoint" />
+            <mxPoint x="425" y="476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m6" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=middle;spacingLeft=8;" value="ejecutarTurno()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="584" />
+              <mxPoint x="520" y="626" />
+            </Array>
+            <mxPoint x="425" y="584" as="sourcePoint" />
+            <mxPoint x="425" y="626" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m7" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="ejecutarTurno(this)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="646" as="sourcePoint" />
+            <mxPoint x="1015" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="procesarEstados()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="808" as="sourcePoint" />
+            <mxPoint x="1015" y="808" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m9" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="aplicar(c)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1025" y="854" as="sourcePoint" />
+            <mxPoint x="1315" y="854" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m10" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="recibirDanio(danioPorTurno)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1315" y="900" as="sourcePoint" />
+            <mxPoint x="1025" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m11" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="reducirDuracion()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1025" y="946" as="sourcePoint" />
+            <mxPoint x="1315" y="946" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m12" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="haExpirado()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1025" y="992" as="sourcePoint" />
+            <mxPoint x="1315" y="992" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m13" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="boolean">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1315" y="1038" as="sourcePoint" />
+            <mxPoint x="1025" y="1038" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m14" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=middle;spacingLeft=8;" value="verificarFinDeBatalla()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="1084" />
+              <mxPoint x="520" y="1126" />
+            </Array>
+            <mxPoint x="425" y="1084" as="sourcePoint" />
+            <mxPoint x="425" y="1126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m15" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="estaDerrotada()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="1146" as="sourcePoint" />
+            <mxPoint x="715" y="1146" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m16" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="boolean">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="1192" as="sourcePoint" />
+            <mxPoint x="425" y="1192" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m17" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="estaVivo()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="1238" as="sourcePoint" />
+            <mxPoint x="1015" y="1238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m18" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="boolean">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1015" y="1284" as="sourcePoint" />
+            <mxPoint x="425" y="1284" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m19" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=middle;spacingLeft=8;" value="otorgarRecompensas()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="1376" />
+              <mxPoint x="520" y="1418" />
+            </Array>
+            <mxPoint x="425" y="1376" as="sourcePoint" />
+            <mxPoint x="425" y="1418" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m20" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="«create» Recompensa(exp, oro, items)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="1438" as="sourcePoint" />
+            <mxPoint x="1615" y="1438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m21" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="finalizada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="1484" as="sourcePoint" />
+            <mxPoint x="125" y="1484" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="titulo" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=20;fontStyle=1" value="Diagrama de Secuencia 2 - Batalla por turnos (bucle principal)" vertex="1">
+          <mxGeometry height="30" width="2240" x="20" y="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="3 - Turno de un Personaje" id="NxKP_ujR_dqSpGUS80dq">
+    <mxGraphModel dx="3963" dy="1474" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2340" pageHeight="1565" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sd" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=238;height=30;fillColor=none;fontStyle=1;verticalAlign=top;align=left;spacingLeft=8;fontSize=14;" value="sd Turno de un Personaje" vertex="1">
+          <mxGeometry height="1465" width="1800" x="10" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="f0" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=74;height=28;fillColor=none;fontStyle=1;verticalAlign=top;align=left;spacingLeft=6;" value="alt" vertex="1">
+          <mxGeometry height="728" width="1732" x="44" y="644" as="geometry" />
+        </mxCell>
+        <mxCell id="f0g" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="[accion = Atacar]" vertex="1">
+          <mxGeometry height="20" width="460" x="126" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="f0s0" parent="1" style="line;strokeWidth=1;dashed=1;html=1;" vertex="1">
+          <mxGeometry height="10" width="1732" x="44" y="802" as="geometry" />
+        </mxCell>
+        <mxCell id="f0s0g" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="[accion = Habilidad]" vertex="1">
+          <mxGeometry height="20" width="420" x="56" y="818" as="geometry" />
+        </mxCell>
+        <mxCell id="f0s1" parent="1" style="line;strokeWidth=1;dashed=1;html=1;" vertex="1">
+          <mxGeometry height="10" width="1732" x="44" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="f0s1g" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="[accion = Usar item]" vertex="1">
+          <mxGeometry height="20" width="420" x="56" y="1046" as="geometry" />
+        </mxCell>
+        <mxCell id="f0s2" parent="1" style="line;strokeWidth=1;dashed=1;html=1;" vertex="1">
+          <mxGeometry height="10" width="1732" x="44" y="1226" as="geometry" />
+        </mxCell>
+        <mxCell id="f0s2g" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="[accion = Defender]" vertex="1">
+          <mxGeometry height="20" width="420" x="56" y="1242" as="geometry" />
+        </mxCell>
+        <mxCell id="act" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;participant=umlActor;" value="Jugador" vertex="1">
+          <mxGeometry height="1415" width="100" x="70" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bat" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value=":Batalla" vertex="1">
+          <mxGeometry height="1415" width="170" x="335" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value="p:JediConsular" vertex="1">
+          <mxGeometry height="1415" width="170" x="635" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="obj" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value="obj:Combatiente" vertex="1">
+          <mxGeometry height="1415" width="170" x="935" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="inv" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value="inv:Inventario" vertex="1">
+          <mxGeometry height="1415" width="170" x="1235" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="it" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value="it:InyeccionBacta" vertex="1">
+          <mxGeometry height="1415" width="183" x="1528" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bact0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="168" width="10" x="115" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="bbat0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="214" width="10" x="415" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bbat1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="415" y="1394" as="geometry" />
+        </mxCell>
+        <mxCell id="bp0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="398" width="10" x="715" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="92" width="10" x="715" y="696" as="geometry" />
+        </mxCell>
+        <mxCell id="bp2" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="154" width="10" x="715" y="862" as="geometry" />
+        </mxCell>
+        <mxCell id="bp3" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="715" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="bp4" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="715" y="1286" as="geometry" />
+        </mxCell>
+        <mxCell id="bp5" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="715" y="1394" as="geometry" />
+        </mxCell>
+        <mxCell id="bobj0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="1015" y="758" as="geometry" />
+        </mxCell>
+        <mxCell id="bobj1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="1015" y="986" as="geometry" />
+        </mxCell>
+        <mxCell id="bobj2" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="1015" y="1182" as="geometry" />
+        </mxCell>
+        <mxCell id="binv0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="76" width="10" x="1315" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="bit0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="76" width="10" x="1615" y="1136" as="geometry" />
+        </mxCell>
+        <mxCell id="m0" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="ejecutarTurno(b)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="230" as="sourcePoint" />
+            <mxPoint x="715" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="rivalesDe(p)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="276" as="sourcePoint" />
+            <mxPoint x="425" y="276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="List&lt;Combatiente&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="322" as="sourcePoint" />
+            <mxPoint x="715" y="322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="aliadosDe(p)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="368" as="sourcePoint" />
+            <mxPoint x="425" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m4" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="List&lt;Combatiente&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="414" as="sourcePoint" />
+            <mxPoint x="715" y="414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="solicitar accion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="460" as="sourcePoint" />
+            <mxPoint x="125" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m6" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="accion elegida">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="506" as="sourcePoint" />
+            <mxPoint x="715" y="506" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m7" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="seleccionar objetivo (rivales / aliados)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="552" as="sourcePoint" />
+            <mxPoint x="125" y="552" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="objetivo elegido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="598" as="sourcePoint" />
+            <mxPoint x="715" y="598" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m9" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=middle;spacingLeft=8;" value="atacar(objetivo)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="706" />
+              <mxPoint x="820" y="748" />
+            </Array>
+            <mxPoint x="725" y="706" as="sourcePoint" />
+            <mxPoint x="725" y="748" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m10" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="recibirDanio(danio)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="768" as="sourcePoint" />
+            <mxPoint x="1015" y="768" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m11" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=middle;spacingLeft=8;" value="getCostoHabilidad()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="872" />
+              <mxPoint x="820" y="914" />
+            </Array>
+            <mxPoint x="725" y="872" as="sourcePoint" />
+            <mxPoint x="725" y="914" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m12" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=middle;spacingLeft=8;" value="usarHabilidad(objetivos)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="934" />
+              <mxPoint x="820" y="976" />
+            </Array>
+            <mxPoint x="725" y="934" as="sourcePoint" />
+            <mxPoint x="725" y="976" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m13" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="recibirDanio(danio)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="996" as="sourcePoint" />
+            <mxPoint x="1015" y="996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m14" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="usarItem(it, objetivo)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="1100" as="sourcePoint" />
+            <mxPoint x="1315" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m15" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="aplicarEfecto(objetivo)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1325" y="1146" as="sourcePoint" />
+            <mxPoint x="1615" y="1146" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m16" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="recibirCuracion(puntos)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1615" y="1192" as="sourcePoint" />
+            <mxPoint x="1025" y="1192" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m17" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=middle;spacingLeft=8;" value="defender()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="1296" />
+              <mxPoint x="820" y="1338" />
+            </Array>
+            <mxPoint x="725" y="1296" as="sourcePoint" />
+            <mxPoint x="725" y="1338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m18" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="fin del turno">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="1404" as="sourcePoint" />
+            <mxPoint x="425" y="1404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="titulo" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=20;fontStyle=1" value="Diagrama de Secuencia 3 - Turno de un Personaje (expande el ref del diagrama 2)" vertex="1">
+          <mxGeometry height="30" width="2240" x="20" y="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="4 - Turno de un Enemigo" id="j9cFTRTg9hUHLKTQFh1o">
+    <mxGraphModel dx="2312" dy="860" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1740" pageHeight="899" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sd" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=222;height=30;fillColor=none;fontStyle=1;verticalAlign=top;align=left;spacingLeft=8;fontSize=14;" value="sd Turno de un Enemigo" vertex="1">
+          <mxGeometry height="799" width="1200" x="10" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="f0" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=74;height=28;fillColor=none;fontStyle=1;verticalAlign=top;align=left;spacingLeft=6;" value="opt" vertex="1">
+          <mxGeometry height="168" width="1132" x="44" y="538" as="geometry" />
+        </mxCell>
+        <mxCell id="f0g" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="[el ataque aplica un estado]" vertex="1">
+          <mxGeometry height="20" width="460" x="126" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="bat" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value=":Batalla" vertex="1">
+          <mxGeometry height="749" width="170" x="35" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value="e:InquisidorSith" vertex="1">
+          <mxGeometry height="749" width="174" x="333" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value="p:Personaje" vertex="1">
+          <mxGeometry height="749" width="170" x="635" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ven" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value="ve:Veneno" vertex="1">
+          <mxGeometry height="264" width="170" x="935" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="bbat0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="122" width="10" x="115" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bbat1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="115" y="728" as="geometry" />
+        </mxCell>
+        <mxCell id="be0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="292" width="10" x="415" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="be1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="76" width="10" x="415" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="be2" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="415" y="728" as="geometry" />
+        </mxCell>
+        <mxCell id="bp0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="715" y="482" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="715" y="636" as="geometry" />
+        </mxCell>
+        <mxCell id="bven0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="1015" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="m0" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="ejecutarTurno(b)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="230" as="sourcePoint" />
+            <mxPoint x="415" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="rivalesDe(e)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="276" as="sourcePoint" />
+            <mxPoint x="125" y="276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="List&lt;Combatiente&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="322" as="sourcePoint" />
+            <mxPoint x="415" y="322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=middle;spacingLeft=8;" value="elige objetivo segun su criterio">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="368" />
+              <mxPoint x="520" y="410" />
+            </Array>
+            <mxPoint x="425" y="368" as="sourcePoint" />
+            <mxPoint x="425" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m4" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=middle;spacingLeft=8;" value="atacar(objetivo)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="430" />
+              <mxPoint x="520" y="472" />
+            </Array>
+            <mxPoint x="425" y="430" as="sourcePoint" />
+            <mxPoint x="425" y="472" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="recibirDanio(danio)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="492" as="sourcePoint" />
+            <mxPoint x="715" y="492" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m6" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="«create» Veneno(danioPorTurno, turnos)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="600" as="sourcePoint" />
+            <mxPoint x="1015" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m7" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="aplicarEstado(ve)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="646" as="sourcePoint" />
+            <mxPoint x="715" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="fin del turno">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="738" as="sourcePoint" />
+            <mxPoint x="125" y="738" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="titulo" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=20;fontStyle=1" value="Diagrama de Secuencia 4 - Turno de un Enemigo (expande el ref del diagrama 2)" vertex="1">
+          <mxGeometry height="30" width="1640" x="20" y="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="5 - Compra en la tienda" id="MuERnool1Te2O9_rhQNx">
+    <mxGraphModel dx="2522" dy="938" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2040" pageHeight="1017" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sd" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=222;height=30;fillColor=none;fontStyle=1;verticalAlign=top;align=left;spacingLeft=8;fontSize=14;" value="sd Compra en la tienda" vertex="1">
+          <mxGeometry height="917" width="1500" x="10" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="f0" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=74;height=28;fillColor=none;fontStyle=1;verticalAlign=top;align=left;spacingLeft=6;" value="alt" vertex="1">
+          <mxGeometry height="410" width="1432" x="44" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="f0g" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="[el oro alcanza]" vertex="1">
+          <mxGeometry height="20" width="460" x="126" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="f0s0" parent="1" style="line;strokeWidth=1;dashed=1;html=1;" vertex="1">
+          <mxGeometry height="10" width="1432" x="44" y="694" as="geometry" />
+        </mxCell>
+        <mxCell id="f0s0g" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="[el oro no alcanza]" vertex="1">
+          <mxGeometry height="20" width="420" x="56" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="act" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;participant=umlActor;" value="Jugador" vertex="1">
+          <mxGeometry height="867" width="100" x="70" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="t" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value="t:Tienda" vertex="1">
+          <mxGeometry height="867" width="170" x="335" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="it" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value="it:Item" vertex="1">
+          <mxGeometry height="867" width="170" x="635" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="par" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value="party:Party" vertex="1">
+          <mxGeometry height="867" width="170" x="935" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="inv" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;size=50;" value="inv:Inventario" vertex="1">
+          <mxGeometry height="867" width="170" x="1235" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bact0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="115" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bact1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="115" y="846" as="geometry" />
+        </mxCell>
+        <mxCell id="bt0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="168" width="10" x="415" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bt1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="76" width="10" x="415" y="466" as="geometry" />
+        </mxCell>
+        <mxCell id="bt2" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="415" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="bt3" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="415" y="754" as="geometry" />
+        </mxCell>
+        <mxCell id="bt4" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="415" y="846" as="geometry" />
+        </mxCell>
+        <mxCell id="bit0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="76" width="10" x="715" y="266" as="geometry" />
+        </mxCell>
+        <mxCell id="bpar0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="1015" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="bpar1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="214" width="10" x="1015" y="466" as="geometry" />
+        </mxCell>
+        <mxCell id="bpar2" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="30" width="10" x="1015" y="754" as="geometry" />
+        </mxCell>
+        <mxCell id="binv0" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;fillColor=#ffffff;" vertex="1">
+          <mxGeometry height="76" width="10" x="1315" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="m0" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="comprarItem(party, item)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="230" as="sourcePoint" />
+            <mxPoint x="415" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="getPrecio()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="276" as="sourcePoint" />
+            <mxPoint x="715" y="276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="int">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="322" as="sourcePoint" />
+            <mxPoint x="425" y="322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="gastarOro(precio)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="368" as="sourcePoint" />
+            <mxPoint x="1015" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m4" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="true">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1015" y="476" as="sourcePoint" />
+            <mxPoint x="425" y="476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="recibirItem(item)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="522" as="sourcePoint" />
+            <mxPoint x="1015" y="522" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m6" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=block;endFill=1;" value="agregarItem(item)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1025" y="568" as="sourcePoint" />
+            <mxPoint x="1315" y="568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m7" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="boolean">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1315" y="614" as="sourcePoint" />
+            <mxPoint x="1025" y="614" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="boolean">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1015" y="660" as="sourcePoint" />
+            <mxPoint x="425" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m9" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="false">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1015" y="764" as="sourcePoint" />
+            <mxPoint x="425" y="764" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m10" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endSize=8;rounded=0;fontSize=12;endArrow=open;dashed=1;endFill=0;" value="boolean">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="856" as="sourcePoint" />
+            <mxPoint x="125" y="856" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="titulo" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=20;fontStyle=1" value="Diagrama de Secuencia 5 - Comprar un item en la Tienda" vertex="1">
+          <mxGeometry height="30" width="1940" x="20" y="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
